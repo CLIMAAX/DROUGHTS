@@ -31,7 +31,6 @@ dependencies:
         - pytest
         - pip:
             - netcdf4
-            - damagescanner
             - jupyterlab_myst
    
           
