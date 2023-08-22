@@ -14,7 +14,7 @@ from scipy.optimize import fmin_slsqp
 
 class DEA(object):
 
-    def __init__(self, inputs, outputs):
+    def __init__(self, inputs, outputs, loud):
         """
         Initialize the DEA object with input data
         n = number of entities (observations)
@@ -48,7 +48,9 @@ class DEA(object):
 
         # names
         self.names = []
-
+        
+        # flags
+        self.loud = loud
     def __efficiency(self, unit):
         """
         Efficiency function with already computed weights
@@ -116,10 +118,14 @@ class DEA(object):
         """
         d0 = self.m + self.r + self.n
         # iterate over units
+        #https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.fmin_slsqp.html
+        iprint = 0
+        if self.loud:
+            iprint = 1
         for unit in self.unit_:
             # weights
             x0 = np.random.rand(d0) - 0.5
-            x0 = fmin_slsqp(self.__target, x0, f_ieqcons=self.__constraints, args=(unit,))
+            x0 = fmin_slsqp(self.__target, x0, f_ieqcons=self.__constraints, args=(unit,), iprint = iprint)
             # unroll weights
             self.input_w, self.output_w, self.lambdas = x0[:self.m], x0[self.m:(self.m+self.r)], x0[(self.m+self.r):]
             self.efficiency[unit] = self.__efficiency(unit)
@@ -135,15 +141,22 @@ class DEA(object):
 
         self.names = names
 
-    def fit(self, loud):
+    def fit(self):
         """
         Optimize the dataset, generate basic table
         :return: table
         """
 
         self.__optimize()  # optimize
-		
-	print("Final thetas for each unit:\n")
+        
+        efficiencies = []
+        
+        for n, eff in enumerate(self.efficiency):
+            efficiencies.append(round(eff[0], 3))
+        
+        return efficiencies
+        '''
+        print("Final thetas for each unit:\n")
 		print("---------------------------\n")
 		for n, eff in enumerate(self.efficiency):
 			if len(self.names) > 0:
@@ -152,8 +165,8 @@ class DEA(object):
        	         name = "Unit %d" % (n+1)
         	    print("%s theta: %.4f" % (name, eff))
 	            print("\n")
-	        print("---------------------------\n")
-
+            print("---------------------------\n")
+        '''
 
 if __name__ == "__main__":
     X = np.array([
