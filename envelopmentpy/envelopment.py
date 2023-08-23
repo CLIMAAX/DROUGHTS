@@ -124,18 +124,8 @@ class DEA(object):
             iprint = 1
         for unit in self.unit_:
             # weights
-    
-            imode = 1
-            counter = 0
-            limit = 10
-            while imode != 0:
-                x0 = np.random.rand(d0) - 0.5
-                x0, fx, its, imode, smode = fmin_slsqp(self.__target, x0, f_ieqcons=self.__constraints,\
-                    args=(unit,), iprint = iprint, full_output = True)
-                counter += 1
-                if counter >= limit:
-                    raise RuntimeError('DEA optimizer exceeded the maximum number of iterations')
-                
+            x0 = np.random.rand(d0) - 0.5
+            x0 = fmin_slsqp(self.__target, x0, f_ieqcons=self.__constraints, args=(unit,), iprint = iprint)
             # unroll weights
             self.input_w, self.output_w, self.lambdas = x0[:self.m], x0[self.m:(self.m+self.r)], x0[(self.m+self.r):]
             self.efficiency[unit] = self.__efficiency(unit)
@@ -178,7 +168,6 @@ class DEA(object):
             print("---------------------------\n")
         '''
 
-'''
 if __name__ == "__main__":
     X = np.array([
         [20., 300.],
@@ -204,4 +193,3 @@ if __name__ == "__main__":
     dea = DEA(X,y)
     dea.name_units(names)
     dea.fit()
-'''
