@@ -39,7 +39,7 @@ class DEA(object):
         self.unit_ = range(self.n)
         self.input_ = range(self.m)
         self.output_ = range(self.r)
-
+        
         # result arrays
         self.output_w = np.zeros((self.r, 1), dtype=np.float64)  # output weights
         self.input_w = np.zeros((self.m, 1), dtype=np.float64)  # input weights
