@@ -22,6 +22,9 @@ dependencies:
         - ipympl
         - nbmake
         - pytest
+        - jenkspy
+        - plotly
+        - dash
         - pip:
             - netcdf4
             - jupyterlab_myst
