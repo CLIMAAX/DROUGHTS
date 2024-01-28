@@ -51,6 +51,7 @@ class DEA(object):
         
         # flags
         self.loud = loud
+        
     def __efficiency(self, unit):
         """
         Efficiency function with already computed weights
@@ -128,13 +129,15 @@ class DEA(object):
             imode = 1
             counter = 0
             limit = 10
-            while imode != 0:
+            fx = 2
+            
+            while imode != 0 or fx > 1.05 or fx < 0:
                 x0 = np.random.rand(d0) - 0.5
                 x0, fx, its, imode, smode = fmin_slsqp(self.__target, x0, f_ieqcons=self.__constraints,\
                     args=(unit,), iprint = iprint, full_output = True)
                 counter += 1
                 if counter >= limit:
-                    raise RuntimeError('DEA optimizer exceeded the maximum number of iterations')
+                    raise RuntimeError('DEA optimizer exceeded the maximum number of iterations')  
                 
             # unroll weights
             self.input_w, self.output_w, self.lambdas = x0[:self.m], x0[self.m:(self.m+self.r)], x0[(self.m+self.r):]
