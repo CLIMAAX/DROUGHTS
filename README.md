@@ -1,4 +1,4 @@
-Click [![Binder](https://mybinder.org/badge_logo.svg)]([![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/CLIMAAX/DROUGHTS/main)) to open the notebooks in this repository on MyBinder.  
+Click [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/CLIMAAX/DROUGHTS/main) to open the notebooks in this repository on MyBinder.  
 
 
 # DROUGHTS
