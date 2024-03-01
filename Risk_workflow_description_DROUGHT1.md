@@ -39,7 +39,7 @@ Vulnerability to drought is computed as a 2-step composite model that derives fr
 
 In the first step, indicators for each factor (i.e. economic, social, and infrastructural) are combined using a DEA model (Sherman and Zhi, 2006), similar to drought exposure. In the second step, individual factors resulting from independent DEA analyses are arithmetically aggregated (using the simple mean) into a composite model of drought vulnerability (dV).
 
-The normalization of the vulnerability indicator accounts for the correlation of the indicator with drought vulnerability. The correlation is given in the table below.
+The normalization of the vulnerability indicator accounts for the correlation of the indicator with drought vulnerability. The correlation is given in the table below, representing examples of indicators that we can find at a subnational resolution:
 
 TABLE 2
 
