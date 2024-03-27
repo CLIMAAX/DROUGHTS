@@ -1,0 +1,19 @@
+Location,NUTS_ID,hazard_raw,exposure_raw,vulnerability_raw,risk_raw,risk_cat
+"EL: Ithaki, Kefallinia",EL623,0.926,0.204,0.037,0.007,1
+EL: Lefkada,EL624,0.82,1.0,0.012,0.01,1
+"EL: Magnisia, Sporades",EL613,0.834,0.703,0.98,0.575,3
+EL: Kerkyra,EL622,0.832,0.713,0.047,0.028,1
+EL: Korinthia,EL652,0.852,0.503,0.987,0.423,3
+"EL: Argolida, Arkadia",EL651,0.846,0.221,0.986,0.184,1
+EL: Evvoia,EL642,0.85,0.414,0.01,0.004,1
+"EL: Lakonia, Messinia",EL653,0.81,0.237,1.0,0.192,1
+EL: Fokida,EL645,0.823,0.106,0.049,0.004,1
+EL: Larisa,EL612,0.852,1.0,0.986,0.84,5
+EL: Zakynthos,EL621,0.844,0.5,0.01,0.004,1
+EL: Aitoloakarnania,EL631,0.829,0.464,0.819,0.315,2
+"EL: Karditsa, Trikala",EL611,0.864,0.831,0.991,0.712,4
+EL: Achaia,EL632,0.838,0.571,0.985,0.471,3
+EL: Ileia,EL633,0.864,0.636,1.0,0.55,3
+EL: Voiotia,EL641,0.854,1.0,0.01,0.009,1
+EL: Evrytania,EL643,0.859,0.135,0.101,0.012,1
+EL: Fthiotida,EL644,0.877,0.508,0.068,0.03,1
