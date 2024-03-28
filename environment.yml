@@ -24,7 +24,7 @@ dependencies:
         - pytest
         - jenkspy
         - plotly
-       	- pooch
+        - pooch
         - urllib
         - geopandas
         - zipfile
