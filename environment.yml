@@ -24,16 +24,16 @@ dependencies:
         - pytest
         - jenkspy
         - plotly
-        - pooch
-	- urllib
-	- geopandas
-	- zipfile
-	- cdsapi
+       	- pooch
+        - urllib
+        - geopandas
+        - zipfile
+        - cdsapi
         - pip:
             - netcdf4
             - jupyterlab_myst
-	    - pyDataverse
-	    - Basemap
+            - pyDataverse
+            - Basemap
 	
    
           
