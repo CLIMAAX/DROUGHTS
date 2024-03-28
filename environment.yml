@@ -34,6 +34,4 @@ dependencies:
             - jupyterlab_myst
             - pyDataverse
             - Basemap
-	
-   
           
