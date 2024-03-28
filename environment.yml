@@ -25,9 +25,7 @@ dependencies:
         - jenkspy
         - plotly
         - pooch
-        - urllib
         - geopandas
-        - zipfile
         - cdsapi
         - pip:
             - netcdf4
