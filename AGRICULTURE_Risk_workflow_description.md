@@ -5,7 +5,7 @@ Climate change is posing an increasing threat to food production systems, furthe
 <br>
 Indeed, risk quantification is a fundamental first step in the design of an effective adaptation strategy. Thus, the aim of this workflow is to provide a simple tool to quantify potential revenue losses caused by precipitation deficit. The hazard component of the asssessment is represented by the potential yield losses deriving from water scarcity, defined as the deficit in crop evapotranspiration potential, in the absence of irrigation. The total crop production and the aggregated crops revenue are used to quantify the exposure of the agricultural sector in economic terms. Finally, the current distribution of irrigation systems is used to map vulnerability. Thus, using this tool communities will get a spatial quantification of potential revenue losses from reduced crop production, and will also be able to identify the most vulnerable areas to precipitation deficits.
 
-![risk_graphic](climax_risk_graphic.png)
+![risk_graphic](agriculture_risk_graphic.png)
 
 ## Datasets used
 
