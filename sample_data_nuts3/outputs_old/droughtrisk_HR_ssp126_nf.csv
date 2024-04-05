@@ -1,0 +1,22 @@
+Location,NUTS_ID,hazard_raw,exposure_raw,vulnerability_raw,risk_raw,risk_cat
+HR: Krapinsko-zagorska županija,HR064,0.743,1.0,1.0,0.743,4
+HR: Brodsko-posavska županija,HR024,0.737,0.763,0.243,0.137,1
+HR: Virovitičko-podravska županija,HR022,0.737,0.828,0.01,0.006,1
+HR: Požeško-slavonska županija,HR023,0.723,0.471,0.065,0.022,1
+HR: Dubrovačko-neretvanska županija,HR037,0.77,0.452,0.718,0.25,2
+HR: Zadarska županija,HR033,0.74,0.594,0.73,0.321,2
+HR: Zagrebačka županija,HR065,0.748,0.908,0.745,0.506,3
+HR: Varaždinska županija,HR062,0.758,0.771,0.984,0.575,3
+HR: Istarska županija,HR036,0.766,0.931,0.896,0.639,4
+HR: Karlovačka županija,HR027,0.707,0.655,0.45,0.208,2
+HR: Sisačko-moslavačka županija,HR028,0.747,0.494,0.374,0.138,1
+HR: Osječko-baranjska županija,HR025,0.735,1.0,0.508,0.373,2
+HR: Primorsko-goranska županija,HR031,0.712,0.519,0.438,0.162,1
+HR: Vukovarsko-srijemska županija,HR026,0.763,1.0,0.508,0.388,2
+HR: Splitsko-dalmatinska županija,HR035,0.691,0.61,0.849,0.358,2
+HR: Šibensko-kninska županija,HR034,0.807,0.7,0.742,0.419,3
+HR: Koprivničko-križevačka županija,HR063,0.763,0.876,0.765,0.511,3
+HR: Međimurska županija,HR061,0.782,0.985,0.897,0.691,4
+HR: Bjelovarsko-bilogorska županija,HR021,0.762,0.922,0.28,0.197,1
+HR: Ličko-senjska županija,HR032,0.803,0.601,0.545,0.263,2
+HR: Grad Zagreb,HR050,0.757,0.892,0.828,0.559,3

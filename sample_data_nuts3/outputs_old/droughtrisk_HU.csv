@@ -1,0 +1,21 @@
+Location,NUTS_ID,hazard_raw,exposure_raw,vulnerability_raw,risk_raw,risk_cat
+HU: Budapest,HU110,0.763,1.0,0.01,0.008,1
+HU: Fejér,HU211,0.761,0.803,0.761,0.465,3
+HU: Komárom-Esztergom,HU212,0.78,0.874,0.669,0.456,3
+HU: Vas,HU222,0.757,0.746,0.727,0.411,3
+HU: Zala,HU223,0.782,0.53,0.798,0.331,2
+HU: Pest,HU120,0.753,0.865,0.379,0.247,2
+HU: Veszprém,HU213,0.787,0.372,0.836,0.245,2
+HU: Győr-Moson-Sopron,HU221,0.782,0.804,0.509,0.32,2
+HU: Baranya,HU231,0.769,0.967,0.896,0.666,4
+HU: Somogy,HU232,0.741,0.524,0.909,0.353,2
+HU: Nógrád,HU313,0.754,0.461,1.0,0.348,2
+HU: Borsod-Abaúj-Zemplén,HU311,0.791,1.0,0.917,0.725,4
+HU: Bács-Kiskun,HU331,0.773,1.0,0.893,0.69,4
+HU: Békés,HU332,0.784,1.0,0.964,0.756,4
+HU: Heves,HU312,0.792,0.62,0.899,0.441,3
+HU: Csongrád,HU333,0.78,1.0,0.865,0.675,4
+HU: Hajdú-Bihar,HU321,0.783,0.916,0.866,0.621,4
+HU: Tolna,HU233,0.785,0.937,0.854,0.628,4
+HU: Jász-Nagykun-Szolnok,HU322,0.76,0.852,0.921,0.596,3
+HU: Szabolcs-Szatmár-Bereg,HU323,0.792,0.768,0.988,0.601,4

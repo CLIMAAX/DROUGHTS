@@ -1,0 +1,24 @@
+Location,NUTS_ID,hazard_raw,exposure_raw,vulnerability_raw,risk_raw,risk_cat
+PT: Cávado,PT112,0.788,1.0,0.989,0.779,4
+PT: Ave,PT119,0.807,1.0,0.991,0.8,4
+PT: Área Metropolitana do Porto,PT11A,0.81,1.0,1.0,0.81,5
+PT: Médio Tejo,PT16I,0.77,0.558,0.876,0.376,2
+PT: Terras de Trás-os-Montes,PT11E,0.815,0.771,0.97,0.61,4
+PT: Região de Aveiro,PT16D,0.821,1.0,0.914,0.75,4
+PT: Algarve,PT150,0.837,0.7,0.602,0.353,2
+PT: Lezíria do Tejo,PT185,0.83,0.763,0.71,0.45,3
+PT: Alto Alentejo,PT186,0.817,0.71,0.728,0.422,3
+PT: Beiras e Serra da Estrela,PT16J,0.806,0.548,0.896,0.396,2
+PT: Área Metropolitana de Lisboa,PT170,0.823,1.0,0.01,0.008,1
+PT: Beira Baixa,PT16H,0.782,0.339,0.89,0.236,2
+PT: Alto Tâmega,PT11B,0.792,0.666,0.974,0.514,3
+PT: Tâmega e Sousa,PT11C,0.786,0.933,0.996,0.73,4
+PT: Douro,PT11D,0.808,0.366,0.994,0.294,2
+PT: Alentejo Litoral,PT181,0.78,1.0,0.647,0.505,3
+PT: Alto Minho,PT111,0.811,0.572,0.972,0.451,3
+PT: Baixo Alentejo,PT184,0.813,0.88,0.699,0.5,3
+PT: Oeste,PT16B,0.819,1.0,0.814,0.667,4
+PT: Região de Coimbra,PT16E,0.842,0.724,0.898,0.547,3
+PT: Região de Leiria,PT16F,0.812,0.933,0.893,0.677,4
+PT: Viseu Dão Lafões,PT16G,0.831,0.993,0.906,0.748,4
+PT: Alentejo Central,PT187,0.817,0.909,0.701,0.521,3

@@ -1,0 +1,7 @@
+Location,NUTS_ID,hazard_raw,exposure_raw,vulnerability_raw,risk_raw,risk_cat
+LV: Pierīga,LV007,0.78,0.379,0.594,0.176,1
+LV: Zemgale,LV009,0.728,1.0,0.871,0.634,4
+LV: Rīga,LV006,0.745,1.0,0.01,0.007,1
+LV: Latgale,LV005,0.74,0.322,1.0,0.238,2
+LV: Vidzeme,LV008,0.732,0.11,0.837,0.067,1
+LV: Kurzeme,LV003,0.729,0.417,0.778,0.237,2
