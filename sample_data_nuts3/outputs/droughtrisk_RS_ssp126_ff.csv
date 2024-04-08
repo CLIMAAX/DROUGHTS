@@ -1,0 +1,26 @@
+Location,NUTS_ID,hazard_raw,exposure_raw,vulnerability_raw,risk_raw,risk_cat
+RS: Zapadnobačka oblast,RS121,0.71,1.0,0.53,0.376,2
+RS: Južnobanatska oblast,RS122,0.74,1.0,0.509,0.377,2
+RS: Južnobačka oblast,RS123,0.694,1.0,0.491,0.341,2
+RS: Pirotska oblast,RS226,0.7,0.731,0.01,0.005,1
+RS: Podunavska oblast,RS227,0.719,1.0,0.916,0.659,4
+RS: Raška oblast,RS217,0.738,0.869,0.795,0.51,3
+RS: Borska oblast,RS221,0.696,0.243,0.521,0.088,1
+RS: Zaječarska oblast,RS223,0.705,0.497,0.692,0.242,2
+RS: Severnobanatska oblast,RS124,0.705,1.0,0.472,0.333,2
+RS: Jablanička oblast,RS224,0.711,0.995,0.823,0.582,3
+RS: Pomoravska oblast,RS215,0.677,0.692,1.0,0.468,3
+RS: Rasinska oblast,RS216,0.706,0.959,0.971,0.657,4
+RS: Pčinjska oblast,RS228,0.725,0.75,0.587,0.319,2
+RS: Toplička oblast,RS229,0.693,1.0,0.999,0.692,4
+RS: Braničevska oblast,RS222,0.69,0.531,0.631,0.231,2
+RS: City of Belgrade,RS110,0.7,1.0,0.934,0.654,4
+RS: Mačvanska oblast,RS213,0.737,0.726,0.445,0.238,2
+RS: Moravička oblast,RS214,0.743,0.751,0.873,0.487,3
+RS: Nišavska oblast,RS225,0.753,0.863,0.892,0.58,3
+RS: Šumadijska oblast,RS218,0.783,1.0,0.964,0.755,4
+RS: Severnobačka oblast,RS125,0.759,1.0,0.56,0.425,3
+RS: Srednjobanatska oblast,RS126,0.784,1.0,0.202,0.158,1
+RS: Sremska oblast,RS127,0.743,1.0,0.55,0.409,3
+RS: Zlatiborska oblast,RS211,0.782,0.482,0.01,0.004,1
+RS: Kolubarska oblast,RS212,0.714,0.647,0.77,0.356,2

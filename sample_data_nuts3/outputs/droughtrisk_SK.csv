@@ -1,9 +1,0 @@
-Location,NUTS_ID,hazard_raw,exposure_raw,vulnerability_raw,risk_raw,risk_cat
-SK: Trnavský kraj,SK021,0.798,1.0,0.637,0.508,3
-SK: Nitriansky kraj,SK023,0.723,1.0,0.849,0.614,4
-SK: Košický kraj,SK042,0.795,1.0,0.944,0.75,4
-SK: Prešovský kraj,SK041,0.852,0.964,1.0,0.821,5
-SK: Trenčiansky kraj,SK022,0.836,0.839,0.815,0.572,3
-SK: Banskobystrický kraj,SK032,0.758,0.197,0.926,0.138,1
-SK: Bratislavský kraj,SK010,0.801,1.0,0.01,0.008,1
-SK: Žilinský kraj,SK031,0.697,0.552,0.83,0.319,2

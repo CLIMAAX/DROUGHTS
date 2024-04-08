@@ -1,0 +1,9 @@
+Location,NUTS_ID,hazard_raw,exposure_raw,vulnerability_raw,risk_raw,risk_cat
+IE: South-West,IE053,0.737,0.37,0.13,0.035,1
+IE: Dublin,IE061,0.735,1.0,0.01,0.007,1
+IE: Mid-West,IE051,0.734,0.403,0.72,0.213,2
+IE: Midland,IE063,0.821,0.454,1.0,0.373,2
+IE: Border,IE041,0.752,1.0,0.991,0.745,4
+IE: Mid-East,IE062,0.794,1.0,0.149,0.118,1
+IE: West,IE042,0.812,0.076,0.804,0.05,1
+IE: South-East,IE052,0.79,0.813,0.922,0.592,3

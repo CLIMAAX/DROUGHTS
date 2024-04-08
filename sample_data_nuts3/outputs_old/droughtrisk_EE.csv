@@ -1,0 +1,6 @@
+Location,NUTS_ID,hazard_raw,exposure_raw,vulnerability_raw,risk_raw,risk_cat
+EE: Lõuna-Eesti,EE008,0.721,0.869,0.871,0.546,3
+EE: Lääne-Eesti,EE004,0.703,0.951,1.0,0.669,4
+EE: Põhja-Eesti,EE001,0.755,1.0,0.01,0.008,1
+EE: Kirde-Eesti,EE00A,0.793,0.51,0.881,0.356,2
+EE: Kesk-Eesti,EE009,0.743,1.0,0.91,0.676,4

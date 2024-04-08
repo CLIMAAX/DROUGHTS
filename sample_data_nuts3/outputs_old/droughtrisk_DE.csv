@@ -1,0 +1,402 @@
+Location,NUTS_ID,hazard_raw,exposure_raw,vulnerability_raw,risk_raw,risk_cat
+DE: Harburg,DE933,0.731,0.352,0.437,0.112,1
+DE: Lüchow-Dannenberg,DE934,0.74,0.476,0.881,0.31,2
+"DE: Lüneburg, Landkreis",DE935,0.792,0.38,0.867,0.261,2
+DE: Siegen-Wittgenstein,DEA5A,0.824,0.184,0.694,0.105,1
+DE: Soest,DEA5B,0.775,0.609,0.692,0.327,2
+DE: Hamburg,DE600,0.794,0.334,0.01,0.003,1
+"DE: Darmstadt, Kreisfreie Stadt",DE711,0.728,0.291,0.371,0.079,1
+"DE: Frankfurt am Main, Kreisfreie Stadt",DE712,0.786,0.83,0.373,0.243,2
+"DE: Offenbach am Main, Kreisfreie Stadt",DE713,0.753,1.0,0.373,0.281,2
+"DE: Wiesbaden, Kreisfreie Stadt",DE714,0.777,0.378,0.463,0.136,1
+DE: Bergstraße,DE715,0.778,0.342,0.486,0.129,1
+DE: Unna,DEA5C,0.745,0.614,0.695,0.318,2
+"DE: Koblenz, Kreisfreie Stadt",DEB11,0.784,0.165,0.869,0.112,1
+DE: Osterholz,DE936,0.753,0.461,0.461,0.16,1
+DE: Vorpommern-Rügen,DE80L,0.755,0.534,0.967,0.39,2
+DE: Schaumburg,DE928,0.782,0.816,0.818,0.522,3
+DE: Region Hannover,DE929,0.757,0.614,0.862,0.401,3
+"DE: Osnabrück, Kreisfreie Stadt",DE944,0.754,0.941,0.865,0.614,4
+"DE: Wilhelmshaven, Kreisfreie Stadt",DE945,0.742,0.578,0.862,0.37,2
+DE: Celle,DE931,0.756,0.472,0.861,0.307,2
+DE: Hildesheim,DE925,0.744,0.836,0.86,0.535,3
+DE: Werra-Meißner-Kreis,DE737,0.736,0.499,0.508,0.187,1
+"DE: Rostock, Kreisfreie Stadt",DE803,0.738,0.866,0.963,0.615,4
+"DE: Schwerin, Kreisfreie Stadt",DE804,0.736,0.969,0.965,0.688,4
+DE: Hameln-Pyrmont,DE923,0.739,0.685,0.843,0.427,3
+DE: Holzminden,DE926,0.746,0.626,0.775,0.362,2
+DE: Nienburg (Weser),DE927,0.845,0.851,0.832,0.598,3
+DE: Cuxhaven,DE932,0.788,0.268,0.717,0.151,1
+DE: Mecklenburgische Seenplatte,DE80J,0.8,0.532,0.957,0.407,3
+"DE: Osnabrück, Landkreis",DE94E,0.796,0.822,0.833,0.545,3
+DE: Vechta,DE94F,0.795,0.994,0.86,0.68,4
+DE: Wesermarsch,DE94G,0.834,0.656,0.743,0.406,3
+DE: Olpe,DEA59,0.818,0.128,0.692,0.072,1
+DE: Landkreis Rostock,DE80K,0.798,0.606,0.96,0.464,3
+"DE: Oldenburg, Landkreis",DE94D,0.773,0.831,0.861,0.553,3
+DE: Aurich,DE947,0.773,0.662,0.86,0.44,3
+DE: Cloppenburg,DE948,0.752,1.0,0.86,0.647,4
+DE: Lörrach,DE139,0.77,0.2,0.585,0.09,1
+DE: Kelheim,DE226,0.748,0.567,0.455,0.193,1
+DE: Eichstätt,DE219,0.79,0.525,0.457,0.19,1
+DE: Emsland,DE949,0.746,0.987,0.832,0.613,4
+"DE: Hof, Landkreis",DE249,0.761,0.717,0.481,0.262,2
+DE: Erding,DE21A,0.77,0.708,0.458,0.25,2
+DE: Freising,DE21B,0.741,0.712,0.457,0.241,2
+DE: Dahme-Spreewald,DE406,0.783,0.943,0.932,0.688,4
+DE: Elbe-Elster,DE407,0.731,0.518,0.926,0.351,2
+DE: Friesland (DE),DE94A,0.769,0.746,0.862,0.495,3
+DE: Grafschaft Bentheim,DE94B,0.782,1.0,0.814,0.637,4
+DE: Leer,DE94C,0.758,0.825,0.85,0.532,3
+"DE: Landshut, Landkreis",DE227,0.76,0.774,0.457,0.269,2
+"DE: Passau, Landkreis",DE228,0.75,0.43,0.493,0.159,1
+DE: Rottweil,DE135,0.763,0.56,0.536,0.229,2
+DE: Schwarzwald-Baar-Kreis,DE136,0.761,0.318,0.536,0.13,1
+DE: Altötting,DE214,0.72,0.645,0.466,0.216,2
+DE: Neumarkt i. d. OPf.,DE236,0.771,0.515,0.455,0.181,1
+DE: Neustadt a. d. Waldnaab,DE237,0.763,0.337,0.468,0.12,1
+DE: Tuttlingen,DE137,0.769,0.359,0.535,0.148,1
+DE: Weilheim-Schongau,DE21N,0.703,0.124,0.456,0.04,1
+"DE: Landshut, Kreisfreie Stadt",DE221,0.754,1.0,0.459,0.346,2
+"DE: Passau, Kreisfreie Stadt",DE222,0.728,0.725,0.529,0.279,2
+"DE: Straubing, Kreisfreie Stadt",DE223,0.779,1.0,0.456,0.355,2
+DE: Deggendorf,DE224,0.803,0.493,0.454,0.18,1
+DE: Freyung-Grafenau,DE225,0.769,0.063,0.461,0.022,1
+DE: Miltenberg,DE269,0.765,0.766,0.453,0.265,2
+DE: Main-Spessart,DE26A,0.796,0.765,0.453,0.276,2
+DE: Ebersberg,DE218,0.774,0.266,0.458,0.094,1
+DE: Uelzen,DE93A,0.765,0.232,0.861,0.153,1
+DE: Verden,DE93B,0.778,0.653,0.416,0.211,2
+"DE: Delmenhorst, Kreisfreie Stadt",DE941,0.811,0.621,0.589,0.297,2
+"DE: Emden, Kreisfreie Stadt",DE942,0.773,0.636,0.861,0.423,3
+"DE: Oldenburg (Oldenburg), Kreisfreie Stadt",DE943,0.769,0.772,0.863,0.512,3
+"DE: Stuttgart, Stadtkreis",DE111,0.78,0.849,0.542,0.359,2
+DE: Berchtesgadener Land,DE215,0.765,0.042,0.423,0.014,1
+DE: Bad Tölz-Wolfratshausen,DE216,0.771,0.092,0.457,0.032,1
+DE: Dachau,DE217,0.767,0.773,0.461,0.273,2
+"DE: Wolfsburg, Kreisfreie Stadt",DE913,0.769,0.895,0.861,0.593,3
+"DE: Salzgitter, Kreisfreie Stadt",DE912,0.742,1.0,0.861,0.639,4
+DE: Konstanz,DE138,0.735,0.385,0.586,0.166,1
+DE: Kulmbach,DE24B,0.736,0.765,0.456,0.257,2
+DE: Lichtenfels,DE24C,0.743,0.781,0.455,0.264,2
+DE: Weißenburg-Gunzenhausen,DE25C,0.738,0.607,0.455,0.204,2
+"DE: Aschaffenburg, Kreisfreie Stadt",DE261,0.75,0.765,0.458,0.263,2
+"DE: Schweinfurt, Kreisfreie Stadt",DE262,0.759,0.938,0.459,0.327,2
+"DE: Würzburg, Kreisfreie Stadt",DE263,0.752,1.0,0.459,0.345,2
+DE: Freudenstadt,DE12C,0.745,0.488,0.536,0.195,1
+"DE: Regensburg, Landkreis",DE238,0.768,0.507,0.456,0.178,1
+DE: Schwandorf,DE239,0.731,0.316,0.457,0.106,1
+DE: Kitzingen,DE268,0.751,0.83,0.454,0.283,2
+DE: Neu-Ulm,DE279,0.734,0.548,0.492,0.198,1
+"DE: Erlangen, Kreisfreie Stadt",DE252,0.719,0.811,0.46,0.268,2
+"DE: Fürth, Kreisfreie Stadt",DE253,0.765,1.0,0.462,0.353,2
+"DE: Braunschweig, Kreisfreie Stadt",DE911,0.752,1.0,0.863,0.649,4
+DE: Regen,DE229,0.736,0.043,0.478,0.015,1
+"DE: Aschaffenburg, Landkreis",DE264,0.761,0.765,0.439,0.256,2
+"DE: München, Kreisfreie Stadt",DE212,0.714,0.45,0.464,0.149,1
+"DE: Rosenheim, Kreisfreie Stadt",DE213,0.81,0.368,0.459,0.137,1
+"DE: Nürnberg, Kreisfreie Stadt",DE254,0.768,0.807,0.462,0.286,2
+"DE: Schwabach, Kreisfreie Stadt",DE255,0.739,1.0,0.459,0.339,2
+DE: Altenkirchen (Westerwald),DEB13,0.781,0.093,0.818,0.059,1
+DE: Bad Kreuznach,DEB14,0.734,0.032,0.867,0.02,1
+DE: Birkenfeld,DEB15,0.766,0.067,0.855,0.044,1
+"DE: Magdeburg, Kreisfreie Stadt",DEE03,0.768,0.892,0.933,0.639,4
+"DE: Freiburg im Breisgau, Stadtkreis",DE131,0.763,0.659,0.54,0.272,2
+DE: Breisgau-Hochschwarzwald,DE132,0.758,0.322,0.56,0.137,1
+DE: Bodenseekreis,DE147,0.807,0.273,0.586,0.129,1
+DE: Mühldorf a. Inn,DE21G,0.79,0.627,0.455,0.225,2
+"DE: München, Landkreis",DE21H,0.793,0.349,0.462,0.128,1
+DE: Neuburg-Schrobenhausen,DE21I,0.783,0.723,0.456,0.258,2
+DE: Pfaffenhofen a. d. Ilm,DE21J,0.759,0.715,0.456,0.247,2
+DE: Meißen,DED2E,0.762,0.741,0.9,0.508,3
+DE: Sächsische Schweiz-Osterzgebirge,DED2F,0.8,0.34,0.916,0.249,2
+DE: Ennepe-Ruhr-Kreis,DEA56,0.763,0.234,0.696,0.124,1
+"DE: Rosenheim, Landkreis",DE21K,0.803,0.062,0.467,0.023,1
+DE: Starnberg,DE21L,0.799,0.141,0.458,0.052,1
+DE: Traunstein,DE21M,0.753,0.142,0.467,0.05,1
+DE: Ravensburg,DE148,0.742,0.24,0.527,0.094,1
+DE: Sigmaringen,DE149,0.762,0.413,0.534,0.168,1
+"DE: Ingolstadt, Kreisfreie Stadt",DE211,0.769,1.0,0.458,0.352,2
+DE: Kronach,DE24A,0.8,0.757,0.51,0.309,2
+DE: Wunsiedel i. Fichtelgebirge,DE24D,0.8,0.383,0.532,0.163,1
+"DE: Ansbach, Kreisfreie Stadt",DE251,0.798,1.0,0.456,0.364,2
+DE: Rotenburg (Wümme),DE937,0.784,0.493,0.859,0.332,2
+DE: Heidekreis,DE938,0.843,0.453,0.86,0.328,2
+DE: Ammerland,DE946,0.802,1.0,0.862,0.691,4
+DE: Bad Kissingen,DE265,0.785,0.744,0.444,0.259,2
+"DE: Bayreuth, Landkreis",DE246,0.788,0.691,0.455,0.248,2
+"DE: Coburg, Landkreis",DE247,0.792,0.754,0.55,0.328,2
+DE: Forchheim,DE248,0.795,0.765,0.458,0.279,2
+DE: Rhön-Grabfeld,DE266,0.755,0.739,0.505,0.282,2
+DE: Haßberge,DE267,0.779,0.765,0.453,0.27,2
+DE: Ortenaukreis,DE134,0.787,0.24,0.684,0.129,1
+DE: Cham,DE235,0.759,0.199,0.476,0.072,1
+DE: Stade,DE939,0.774,0.506,0.736,0.288,2
+DE: Emmendingen,DE133,0.766,0.326,0.554,0.138,1
+DE: Nordfriesland,DEF07,0.755,0.313,0.897,0.212,2
+DE: Ilm-Kreis,DEG0F,0.746,0.687,0.932,0.478,3
+DE: Odenwaldkreis,DE71B,0.773,0.77,0.391,0.233,2
+"DE: Offenbach, Landkreis",DE71C,0.773,0.765,0.378,0.224,2
+DE: Weimarer Land,DEG0G,0.771,1.0,0.931,0.718,4
+DE: Sonneberg,DEG0H,0.767,0.738,0.807,0.457,3
+DE: Alzey-Worms,DEB3B,0.779,0.061,0.793,0.038,1
+DE: Bad Dürkheim,DEB3C,0.803,0.064,0.868,0.045,1
+DE: Donnersbergkreis,DEB3D,0.763,0.029,0.867,0.019,1
+"DE: Halle (Saale), Kreisfreie Stadt",DEE02,0.74,1.0,0.933,0.69,4
+DE: Ostholstein,DEF08,0.746,0.546,0.88,0.358,2
+DE: Börde,DEE07,0.746,0.79,0.929,0.547,3
+DE: Burgenlandkreis,DEE08,0.783,1.0,0.928,0.727,4
+"DE: Hamm, Kreisfreie Stadt",DEA54,0.801,1.0,0.693,0.555,3
+"DE: Herne, Kreisfreie Stadt",DEA55,0.748,0.649,0.697,0.338,2
+"DE: Kassel, Kreisfreie Stadt",DE731,0.747,0.742,0.371,0.206,2
+DE: Reutlingen,DE141,0.776,0.547,0.537,0.228,2
+DE: Wittmund,DE94H,0.786,0.669,0.859,0.452,3
+"DE: Düsseldorf, Kreisfreie Stadt",DEA11,0.797,0.564,0.695,0.312,2
+DE: Rhein-Neckar-Kreis,DE128,0.737,0.5,0.53,0.195,1
+"DE: Pforzheim, Stadtkreis",DE129,0.737,0.515,0.54,0.205,2
+DE: Calw,DE12A,0.79,0.662,0.538,0.281,2
+DE: Enzkreis,DE12B,0.773,0.51,0.538,0.212,2
+"DE: Gießen, Landkreis",DE721,0.765,0.488,0.369,0.138,1
+DE: Lahn-Dill-Kreis,DE722,0.777,0.141,0.398,0.044,1
+DE: Limburg-Weilburg,DE723,0.77,0.356,0.515,0.141,1
+DE: Marburg-Biedenkopf,DE724,0.742,0.331,0.383,0.094,1
+DE: Böblingen,DE112,0.758,0.777,0.539,0.317,2
+"DE: Duisburg, Kreisfreie Stadt",DEA12,0.772,0.396,0.695,0.212,2
+"DE: Essen, Kreisfreie Stadt",DEA13,0.778,0.417,0.696,0.226,2
+DE: Fulda,DE732,0.74,0.536,0.394,0.156,1
+DE: Hersfeld-Rotenburg,DE733,0.807,0.495,0.424,0.169,1
+DE: Wolfenbüttel,DE91B,0.795,1.0,0.862,0.685,4
+"DE: Bayreuth, Kreisfreie Stadt",DE242,0.815,0.785,0.458,0.293,2
+"DE: Coburg, Kreisfreie Stadt",DE243,0.789,1.0,0.457,0.361,2
+"DE: Hof, Kreisfreie Stadt",DE244,0.825,1.0,0.458,0.378,2
+DE: Südwestpfalz,DEB3K,0.81,0.308,0.86,0.215,2
+DE: Regionalverband Saarbrücken,DEC01,0.801,0.494,0.843,0.334,2
+DE: Merzig-Wadern,DEC02,0.839,0.486,0.775,0.316,2
+DE: Neunkirchen,DEC03,0.82,0.467,0.74,0.283,2
+DE: Saarlouis,DEC04,0.795,0.531,0.776,0.328,2
+"DE: Krefeld, Kreisfreie Stadt",DEA14,0.81,0.769,0.694,0.432,3
+"DE: Mönchengladbach, Kreisfreie Stadt",DEA15,0.78,1.0,0.695,0.542,3
+"DE: Mülheim an der Ruhr, Kreisfreie Stadt",DEA16,0.755,0.591,0.696,0.311,2
+"DE: Oberhausen, Kreisfreie Stadt",DEA17,0.754,0.803,0.696,0.421,3
+"DE: Remscheid, Kreisfreie Stadt",DEA18,0.785,0.314,0.694,0.171,1
+"DE: Solingen, Kreisfreie Stadt",DEA19,0.73,0.399,0.695,0.202,2
+DE: Trier-Saarburg,DEB25,0.814,0.473,0.747,0.288,2
+"DE: Tübingen, Landkreis",DE142,0.744,0.781,0.537,0.312,2
+DE: Zollernalbkreis,DE143,0.783,0.591,0.536,0.248,2
+DE: Dingolfing-Landau,DE22C,0.784,0.91,0.454,0.324,2
+"DE: Amberg, Kreisfreie Stadt",DE231,0.776,0.898,0.459,0.32,2
+"DE: Regensburg, Kreisfreie Stadt",DE232,0.763,1.0,0.459,0.35,2
+"DE: Weiden i. d. Opf, Kreisfreie Stadt",DE233,0.751,0.913,0.457,0.313,2
+DE: Amberg-Sulzbach,DE234,0.756,0.4,0.456,0.138,1
+DE: Pinneberg,DEF09,0.737,0.455,0.562,0.188,1
+DE: Rhein-Sieg-Kreis,DEA2C,0.752,0.189,0.707,0.1,1
+DE: Städteregion Aachen,DEA2D,0.773,0.944,0.713,0.52,3
+"DE: Bottrop, Kreisfreie Stadt",DEA31,0.769,0.63,0.696,0.337,2
+"DE: Gelsenkirchen, Kreisfreie Stadt",DEA32,0.748,0.696,0.697,0.363,2
+"DE: Münster, Kreisfreie Stadt",DEA33,0.751,0.882,0.697,0.462,3
+"DE: Frankenthal (Pfalz), Kreisfreie Stadt",DEB31,0.753,0.731,0.77,0.424,3
+"DE: Kaiserslautern, Kreisfreie Stadt",DEB32,0.767,0.176,0.869,0.117,1
+DE: Bernkastel-Wittlich,DEB22,0.792,0.444,0.865,0.304,2
+DE: Eifelkreis Bitburg-Prüm,DEB23,0.762,0.486,0.634,0.235,2
+DE: Saalekreis,DEE0B,0.77,1.0,0.93,0.716,4
+"DE: Landau in der Pfalz, Kreisfreie Stadt",DEB33,0.77,0.118,0.868,0.079,1
+"DE: Ludwigshafen am Rhein, Kreisfreie Stadt",DEB34,0.75,0.424,0.688,0.219,2
+"DE: Mainz, Kreisfreie Stadt",DEB35,0.761,0.477,0.569,0.207,2
+"DE: Neustadt an der Weinstraße, Kreisfreie Stadt",DEB36,0.762,0.096,0.868,0.063,1
+"DE: Pirmasens, Kreisfreie Stadt",DEB37,0.716,0.407,0.868,0.253,2
+DE: Rheingau-Taunus-Kreis,DE71D,0.781,0.212,0.494,0.082,1
+DE: Hohenlohekreis,DE119,0.778,0.811,0.536,0.338,2
+"DE: Bamberg, Landkreis",DE245,0.759,0.765,0.456,0.265,2
+DE: Görlitz,DED2D,0.797,0.666,0.989,0.525,3
+DE: Coesfeld,DEA35,0.777,0.765,0.694,0.413,3
+DE: Recklinghausen,DEA36,0.788,0.353,0.697,0.194,1
+DE: Steinfurt,DEA37,0.77,0.712,0.726,0.398,2
+DE: Oder-Spree,DE40C,0.737,0.787,0.935,0.542,3
+DE: Sömmerda,DEG0D,0.768,1.0,0.931,0.715,4
+DE: Hildburghausen,DEG0E,0.768,0.629,0.865,0.418,3
+DE: Darmstadt-Dieburg,DE716,0.76,0.467,0.375,0.133,1
+DE: Groß-Gerau,DE717,0.728,0.276,0.446,0.09,1
+DE: Hochtaunuskreis,DE718,0.715,0.59,0.372,0.157,1
+DE: Main-Kinzig-Kreis,DE719,0.739,0.741,0.376,0.206,2
+"DE: Memmingen, Kreisfreie Stadt",DE274,0.753,0.741,0.474,0.264,2
+DE: Wetteraukreis,DE71E,0.731,0.751,0.369,0.203,2
+DE: Gifhorn,DE914,0.78,0.468,0.864,0.315,2
+DE: Plön,DEF0A,0.732,0.553,0.876,0.355,2
+DE: Stendal,DEE0D,0.77,0.577,0.928,0.412,3
+DE: Wittenberg,DEE0E,0.754,0.484,0.926,0.338,2
+"DE: Flensburg, Kreisfreie Stadt",DEF01,0.775,0.449,0.878,0.306,2
+"DE: Kiel, Kreisfreie Stadt",DEF02,0.775,0.833,0.877,0.566,3
+"DE: Lübeck, Kreisfreie Stadt",DEF03,0.739,1.0,0.886,0.655,4
+DE: Saalfeld-Rudolstadt,DEG0I,0.777,0.723,0.911,0.512,3
+DE: Mayen-Koblenz,DEB17,0.729,0.247,0.868,0.156,1
+DE: Neuwied,DEB18,0.775,0.097,0.867,0.065,1
+DE: Rhein-Lahn-Kreis,DEB1A,0.742,0.084,0.838,0.052,1
+"DE: Augsburg, Landkreis",DE276,0.723,0.404,0.459,0.134,1
+DE: Dillingen a.d. Donau,DE277,0.751,0.608,0.469,0.214,2
+DE: Oberspreewald-Lausitz,DE40B,0.736,0.616,0.927,0.42,3
+DE: Main-Taunus-Kreis,DE71A,0.745,0.687,0.372,0.19,1
+DE: Waldshut,DE13A,0.772,0.235,0.517,0.094,1
+DE: Dithmarschen,DEF05,0.772,0.342,0.873,0.23,2
+DE: Herzogtum Lauenburg,DEF06,0.733,0.563,0.704,0.291,2
+DE: Gotha,DEG0C,0.753,0.761,0.931,0.533,3
+DE: Germersheim,DEB3E,0.729,0.259,0.709,0.134,1
+DE: Nürnberger Land,DE259,0.754,0.742,0.459,0.257,2
+DE: Neustadt a. d. Aisch-Bad Windsheim,DE25A,0.76,0.763,0.454,0.263,2
+DE: Donau-Ries,DE27D,0.75,0.618,0.457,0.212,2
+DE: Oberallgäu,DE27E,0.766,0.271,0.459,0.095,1
+DE: Ludwigslust-Parchim,DE80O,0.719,0.503,0.952,0.344,2
+"DE: Ansbach, Landkreis",DE256,0.755,0.625,0.461,0.218,2
+DE: Günzburg,DE278,0.721,0.442,0.462,0.147,1
+DE: Goslar,DE916,0.719,0.545,0.863,0.338,2
+DE: Helmstedt,DE917,0.719,1.0,0.875,0.629,4
+DE: Garmisch-Partenkirchen,DE21D,0.717,0.098,0.464,0.033,1
+DE: Alb-Donau-Kreis,DE145,0.749,0.598,0.519,0.232,2
+DE: Biberach,DE146,0.749,0.487,0.53,0.193,1
+DE: Rastatt,DE124,0.727,0.282,0.567,0.116,1
+"DE: Heidelberg, Stadtkreis",DE125,0.733,0.724,0.54,0.287,2
+"DE: Mannheim, Stadtkreis",DE126,0.745,0.376,0.501,0.14,1
+DE: Neckar-Odenwald-Kreis,DE127,0.751,0.773,0.532,0.309,2
+DE: Fürstenfeldbruck,DE21C,0.749,0.593,0.459,0.204,2
+DE: Northeim,DE918,0.795,0.555,0.81,0.357,2
+DE: Peine,DE91A,0.771,1.0,0.86,0.663,4
+DE: Diepholz,DE922,0.751,0.748,0.504,0.283,2
+DE: Berlin,DE300,0.753,1.0,0.856,0.645,4
+DE: Landsberg am Lech,DE21E,0.746,0.291,0.456,0.099,1
+DE: Miesbach,DE21F,0.731,0.055,0.456,0.018,1
+DE: Tirschenreuth,DE23A,0.73,0.318,0.657,0.153,1
+"DE: Bamberg, Kreisfreie Stadt",DE241,0.748,1.0,0.458,0.343,2
+"DE: Bonn, Kreisfreie Stadt",DEA22,0.771,0.661,0.703,0.358,2
+DE: Euskirchen,DEA28,0.751,0.393,0.704,0.208,2
+DE: Heinsberg,DEA29,0.743,1.0,0.704,0.523,3
+DE: Göppingen,DE114,0.711,0.712,0.538,0.272,2
+DE: Ludwigsburg,DE115,0.771,0.798,0.54,0.332,2
+DE: Rems-Murr-Kreis,DE116,0.774,0.777,0.541,0.325,2
+DE: Erlangen-Höchstadt,DE257,0.763,0.774,0.46,0.272,2
+"DE: Fürth, Landkreis",DE258,0.771,0.838,0.461,0.298,2
+DE: Bautzen,DED2C,0.8,0.513,0.902,0.37,2
+"DE: Wuppertal, Kreisfreie Stadt",DEA1A,0.753,0.304,0.695,0.159,1
+DE: Warendorf,DEA38,0.771,0.799,0.693,0.427,3
+"DE: Bielefeld, Kreisfreie Stadt",DEA41,0.751,0.623,0.696,0.326,2
+"DE: Köln, Kreisfreie Stadt",DEA23,0.8,0.332,0.695,0.185,1
+"DE: Leverkusen, Kreisfreie Stadt",DEA24,0.753,0.621,0.694,0.325,2
+DE: Schwäbisch Hall,DE11A,0.763,0.74,0.529,0.299,2
+DE: Main-Tauber-Kreis,DE11B,0.769,0.822,0.507,0.32,2
+DE: Heidenheim,DE11C,0.773,0.476,0.535,0.197,1
+DE: Düren,DEA26,0.781,0.741,0.693,0.401,3
+DE: Rhein-Erft-Kreis,DEA27,0.774,0.736,0.694,0.395,2
+"DE: Kaiserslautern, Landkreis",DEB3F,0.776,0.147,0.868,0.099,1
+DE: Kleve,DEA1B,0.761,0.724,0.72,0.397,2
+DE: Mettmann,DEA1C,0.775,0.351,0.695,0.189,1
+DE: Rhein-Kreis Neuss,DEA1D,0.774,0.59,0.695,0.317,2
+DE: Viersen,DEA1E,0.743,0.927,0.698,0.481,3
+"DE: Worms, Kreisfreie Stadt",DEB39,0.769,0.142,0.803,0.088,1
+"DE: Zweibrücken, Kreisfreie Stadt",DEB3A,0.772,0.522,0.779,0.314,2
+DE: Oberbergischer Kreis,DEA2A,0.771,0.098,0.701,0.053,1
+DE: Rheinisch-Bergischer Kreis,DEA2B,0.772,0.145,0.695,0.078,1
+DE: Gütersloh,DEA42,0.792,0.699,0.703,0.389,2
+DE: Herford,DEA43,0.772,0.93,0.699,0.502,3
+DE: Höxter,DEA44,0.76,0.593,0.664,0.299,2
+"DE: Speyer, Kreisfreie Stadt",DEB38,0.816,0.42,0.868,0.297,2
+DE: Kusel,DEB3G,0.824,0.053,0.848,0.037,1
+DE: Vulkaneifel,DEB24,0.821,0.366,0.839,0.252,2
+DE: Segeberg,DEF0D,0.811,0.508,0.511,0.211,2
+DE: Steinburg,DEF0E,0.824,0.381,0.874,0.274,2
+DE: Stormarn,DEF0F,0.811,0.562,0.326,0.149,1
+DE: Nordwestmecklenburg,DE80M,0.798,0.707,0.952,0.537,3
+DE: Ahrweiler,DEB12,0.831,0.094,0.84,0.066,1
+DE: Saarpfalz-Kreis,DEC05,0.788,0.464,0.784,0.287,2
+DE: Jerichower Land,DEE06,0.812,0.574,0.929,0.433,3
+DE: Prignitz,DE40F,0.822,0.655,0.927,0.499,3
+DE: Vogtlandkreis,DED44,0.798,0.596,0.908,0.432,3
+DE: Zwickau,DED45,0.822,0.764,0.902,0.566,3
+"DE: Leipzig, Kreisfreie Stadt",DED51,0.786,1.0,0.902,0.709,4
+DE: Borken,DEA34,0.779,0.689,0.716,0.384,2
+DE: Harz,DEE09,0.794,0.734,0.924,0.539,3
+DE: Mansfeld-Südharz,DEE0A,0.761,0.884,0.93,0.626,4
+DE: Wesel,DEA1F,0.784,0.5,0.694,0.272,2
+DE: Ostprignitz-Ruppin,DE40D,0.803,0.876,0.931,0.655,4
+DE: Saale-Holzland-Kreis,DEG0J,0.774,0.767,0.932,0.553,3
+DE: Saale-Orla-Kreis,DEG0K,0.748,0.724,0.855,0.463,3
+DE: Südliche Weinstraße,DEB3H,0.743,0.112,0.876,0.073,1
+DE: Rhein-Pfalz-Kreis,DEB3I,0.747,0.253,0.729,0.138,1
+DE: Mainz-Bingen,DEB3J,0.766,0.116,0.684,0.061,1
+"DE: Brandenburg an der Havel, Kreisfreie Stadt",DE401,0.775,1.0,0.934,0.724,4
+DE: Potsdam-Mittelmark,DE40E,0.766,0.909,0.934,0.65,4
+DE: Spree-Neiße,DE40G,0.755,0.717,0.939,0.508,3
+"DE: Neumünster, Kreisfreie Stadt",DEF04,0.762,0.893,0.878,0.597,3
+DE: Vogelsbergkreis,DE725,0.796,0.423,0.367,0.124,1
+DE: Esslingen,DE113,0.805,0.777,0.539,0.337,2
+DE: Vorpommern-Greifswald,DE80N,0.744,0.54,0.97,0.39,2
+DE: Aichach-Friedberg,DE275,0.736,0.686,0.458,0.231,2
+DE: Altmarkkreis Salzwedel,DEE04,0.764,0.522,0.924,0.368,2
+DE: Anhalt-Bitterfeld,DEE05,0.782,0.798,0.926,0.578,3
+DE: Lippe,DEA45,0.774,0.571,0.697,0.308,2
+DE: Roth,DE25B,0.768,0.722,0.457,0.253,2
+"DE: Ulm, Stadtkreis",DE144,0.816,1.0,0.514,0.419,3
+DE: Lindau (Bodensee),DE27A,0.78,0.12,0.512,0.048,1
+DE: Ostallgäu,DE27B,0.791,0.201,0.463,0.074,1
+DE: Unstrut-Hainich-Kreis,DEG09,0.758,1.0,0.919,0.697,4
+DE: Kyffhäuserkreis,DEG0A,0.783,1.0,0.93,0.728,4
+DE: Schmalkalden-Meiningen,DEG0B,0.786,0.56,0.887,0.39,2
+DE: Hochsauerlandkreis,DEA57,0.767,0.228,0.671,0.117,1
+DE: Märkischer Kreis,DEA58,0.745,0.119,0.693,0.061,1
+DE: Göttingen,DE91C,0.763,0.572,0.799,0.349,2
+DE: Leipzig,DED52,0.712,0.87,0.901,0.558,3
+DE: Nordsachsen,DED53,0.774,0.8,0.901,0.558,3
+DE: St. Wendel,DEC06,0.744,0.295,0.758,0.166,1
+"DE: Dresden, Kreisfreie Stadt",DED21,0.77,0.559,0.901,0.388,2
+DE: Unterallgäu,DE27C,0.796,0.328,0.46,0.12,1
+DE: Rottal-Inn,DE22A,0.774,0.663,0.472,0.242,2
+DE: Straubing-Bogen,DE22B,0.75,0.631,0.455,0.215,2
+"DE: Dessau-Roßlau, Kreisfreie Stadt",DEE01,0.747,0.711,0.931,0.494,3
+DE: Minden-Lübbecke,DEA46,0.775,0.808,0.72,0.451,3
+DE: Paderborn,DEA47,0.743,0.47,0.693,0.242,2
+"DE: Bochum, Kreisfreie Stadt",DEA51,0.796,0.493,0.696,0.273,2
+"DE: Dortmund, Kreisfreie Stadt",DEA52,0.752,0.436,0.696,0.228,2
+"DE: Hagen, Kreisfreie Stadt",DEA53,0.76,0.246,0.695,0.13,1
+DE: Greiz,DEG0L,0.75,0.806,0.922,0.557,3
+DE: Altenburger Land,DEG0M,0.763,1.0,0.923,0.704,4
+"DE: Eisenach, Kreisfreie Stadt",DEG0N,0.749,0.953,0.932,0.665,4
+"DE: Frankfurt (Oder), Kreisfreie Stadt",DE403,0.791,0.745,0.944,0.556,3
+"DE: Potsdam, Kreisfreie Stadt",DE404,0.798,1.0,0.902,0.72,4
+DE: Barnim,DE405,0.741,0.468,0.885,0.307,2
+DE: Teltow-Fläming,DE40H,0.744,0.871,0.932,0.604,4
+DE: Uckermark,DE40I,0.743,0.599,1.0,0.445,3
+"DE: Bremen, Kreisfreie Stadt",DE501,0.733,0.498,0.284,0.104,1
+"DE: Bremerhaven, Kreisfreie Stadt",DE502,0.753,0.384,0.532,0.154,1
+DE: Ostalbkreis,DE11D,0.719,0.623,0.531,0.238,2
+"DE: Baden-Baden, Stadtkreis",DE121,0.734,0.344,0.538,0.136,1
+"DE: Kassel, Landkreis",DE734,0.734,0.556,0.395,0.161,1
+DE: Rendsburg-Eckernförde,DEF0B,0.746,0.405,0.876,0.265,2
+"DE: Heilbronn, Stadtkreis",DE117,0.734,1.0,0.54,0.396,2
+"DE: Heilbronn, Landkreis",DE118,0.731,0.781,0.538,0.307,2
+"DE: Karlsruhe, Stadtkreis",DE122,0.773,0.471,0.564,0.205,2
+"DE: Karlsruhe, Landkreis",DE123,0.726,0.4,0.574,0.167,1
+DE: Schwalm-Eder-Kreis,DE735,0.754,0.546,0.367,0.151,1
+DE: Waldeck-Frankenberg,DE736,0.734,0.432,0.455,0.144,1
+"DE: Erfurt, Kreisfreie Stadt",DEG01,0.718,1.0,0.933,0.67,4
+"DE: Gera, Kreisfreie Stadt",DEG02,0.74,0.951,0.934,0.657,4
+"DE: Jena, Kreisfreie Stadt",DEG03,0.731,0.736,0.934,0.503,3
+"DE: Suhl, Kreisfreie Stadt",DEG04,0.708,0.495,0.932,0.327,2
+"DE: Weimar, Kreisfreie Stadt",DEG05,0.758,1.0,0.932,0.706,4
+DE: Westerwaldkreis,DEB1B,0.706,0.068,0.832,0.04,1
+DE: Cochem-Zell,DEB1C,0.739,0.467,0.865,0.299,2
+DE: Rhein-Hunsrück-Kreis,DEB1D,0.751,0.173,0.866,0.113,1
+"DE: Trier, Kreisfreie Stadt",DEB21,0.726,0.486,0.868,0.306,2
+"DE: Schweinfurt, Landkreis",DE26B,0.753,0.843,0.456,0.289,2
+"DE: Würzburg, Landkreis",DE26C,0.723,0.923,0.461,0.308,2
+"DE: Augsburg, Kreisfreie Stadt",DE271,0.733,0.871,0.461,0.294,2
+"DE: Kaufbeuren, Kreisfreie Stadt",DE272,0.716,0.255,0.459,0.084,1
+"DE: Kempten (Allgäu), Kreisfreie Stadt",DE273,0.709,0.368,0.459,0.12,1
+"DE: Chemnitz, Kreisfreie Stadt",DED41,0.75,0.733,0.901,0.495,3
+DE: Schleswig-Flensburg,DEF0C,0.717,0.459,0.889,0.293,2
+DE: Erzgebirgskreis,DED42,0.749,0.274,0.912,0.187,1
+DE: Mittelsachsen,DED43,0.73,0.731,0.903,0.482,3
+DE: Havelland,DE408,0.742,1.0,0.9,0.668,4
+DE: Märkisch-Oderland,DE409,0.752,0.636,0.946,0.452,3
+DE: Oberhavel,DE40A,0.744,1.0,0.893,0.664,4
+DE: Salzlandkreis,DEE0C,0.734,1.0,0.93,0.683,4
+DE: Eichsfeld,DEG06,0.758,0.694,0.824,0.433,3
+DE: Nordhausen,DEG07,0.743,0.762,0.928,0.525,3
+DE: Wartburgkreis,DEG0P,0.721,0.51,0.842,0.31,2
+"DE: Cottbus, Kreisfreie Stadt",DE402,0.733,1.0,0.934,0.685,4

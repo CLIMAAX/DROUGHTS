@@ -1,0 +1,15 @@
+Location,NUTS_ID,hazard_raw,exposure_raw,vulnerability_raw,risk_raw,risk_cat
+CZ: Hlavní město Praha,CZ010,0.802,1.0,0.01,0.008,1
+CZ: Středočeský kraj,CZ020,0.813,0.756,0.648,0.398,2
+CZ: Ústecký kraj,CZ042,0.799,0.551,0.925,0.407,3
+CZ: Liberecký kraj,CZ051,0.821,0.555,0.976,0.445,3
+CZ: Královéhradecký kraj,CZ052,0.787,1.0,0.964,0.759,4
+CZ: Jihočeský kraj,CZ031,0.852,0.524,0.901,0.402,3
+CZ: Pardubický kraj,CZ053,0.822,0.846,0.957,0.666,4
+CZ: Moravskoslezský kraj,CZ080,0.801,1.0,0.965,0.773,4
+CZ: Olomoucký kraj,CZ071,0.752,0.887,1.0,0.667,4
+CZ: Karlovarský kraj,CZ041,0.77,0.449,0.95,0.328,2
+CZ: Kraj Vysočina,CZ063,0.779,0.722,0.907,0.51,3
+CZ: Jihomoravský kraj,CZ064,0.722,1.0,0.858,0.619,4
+CZ: Plzeňský kraj,CZ032,0.793,0.316,0.88,0.221,2
+CZ: Zlínský kraj,CZ072,0.774,0.922,0.94,0.671,4
