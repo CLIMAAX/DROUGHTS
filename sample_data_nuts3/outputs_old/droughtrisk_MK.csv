@@ -1,9 +1,0 @@
-Location,NUTS_ID,hazard_raw,exposure_raw,vulnerability_raw,risk_raw,risk_cat
-MK: Skopski,MK008,0.807,1.0,0.01,0.008,1
-MK: Jugozapaden,MK003,0.798,0.441,0.916,0.322,2
-MK: Jugoistočen,MK004,0.769,1.0,0.465,0.358,2
-MK: Pelagoniski,MK005,0.833,0.439,0.519,0.19,1
-MK: Pološki,MK006,0.813,1.0,1.0,0.813,5
-MK: Severoistočen,MK007,0.768,1.0,0.829,0.637,4
-MK: Vardarski,MK001,0.781,0.462,0.625,0.226,2
-MK: Istočen,MK002,0.786,0.665,0.657,0.343,2
