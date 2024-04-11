@@ -27,6 +27,7 @@ dependencies:
         - pooch
         - geopandas
         - cdsapi
+        - dask
         - pip:
             - netcdf4
             - jupyterlab_myst

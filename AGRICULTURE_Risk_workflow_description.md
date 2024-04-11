@@ -11,9 +11,9 @@ Indeed, risk quantification is a fundamental first step in the design of an effe
 
 The assessment is based on well-established climate projections and global agricultural datasets allowing to estimate potential losses at approximately 10 km resolution. These include:
 
-* Daily mean precipitation flux, maximum and minimum temperature, 2 m relative humidity, surface downward solar radiation and 10 m wind speed from CORDEX Climate projections (Copernicus Data Storage, 2019).
-* Global production [ton] for 42 crops in 2010 from the MapSPAM repository (International Food Policy Research Institute, 2019).
-* Crop aggregated value [US$] and irrigation availability for 2010 from the FAO-IIASA Global Agro-Ecological Zones data repository (GAEZ).
+* Climate data (daily mean precipitation flux, maximum and minimum temperature, 2 m relative humidity, surface downward solar radiation and 10 m wind speed) from CORDEX regional climate models, as well as data on soil available water capacity ([Hengl and Gupta, 2019](https://zenodo.org/records/2629149)), elevation ([Danielson & Gesch, 2011](https://pubs.usgs.gov/of/2011/1073/)) and thermal climate zone ([Van Velthuizen et al., 2007](https://www.fao.org/publications/card/en/c/2b0a758c-d40d-5706-a80d-32ebd864a57a)) will be used to calculate the hazard (i.e., the potential yield loss). 
+* Global production [ton] for 42 crops in 2010 from the [MapSPAM](https://mapspam.info/) repository (International Food Policy Research Institute, 2019) and crop aggregated value [US$] from the FAO-IIASA Global Agro-Ecological Zones data repository [(GAEZ)](https://gaez.fao.org/) will be used to determine the exposure of different crops to precipitation scarcity.
+* Distribution of fully-irrigated cropland for 2010 from GAEZ to account for vulnerability. 
 
 The tool is designed to work considering different future time periods and emission scenarios, allowing the user to understand the implications of different levels of gloabl warming. The user is invited to further personalise the workflow using local datasets for agricultural production to increase the accuracy of the assessment or to test the reliability of the default global datasets.
 
