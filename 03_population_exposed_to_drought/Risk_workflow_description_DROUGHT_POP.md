@@ -1,4 +1,4 @@
-# Risk assessment for drought-exposed population
+# Risk assessment for population exposed to drought
 
 
 ## Risk assessment methodology
