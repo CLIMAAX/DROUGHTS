@@ -130,6 +130,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+batchRunWorkflow/
 
 # Spyder project settings
 .spyderproject
