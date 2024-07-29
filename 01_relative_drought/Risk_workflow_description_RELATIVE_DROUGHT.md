@@ -43,19 +43,20 @@ The drought hazard and risk workflow are applied at national scale and a NUTS3 r
 
 Drought hazard for a given region is estimated as the probability of exceedance the median of regional (e.g., EU level) severe precipitation deficits for an historical reference period (e.g. 1979-2019) or for a future projection period (e.g. 2015-2100).<br/>
 
-:::{important}
-The expected data format is a table where each row represents the total precipitation in mm for a month/year combination, and each column represents an area of interest (e.g. NUTS3 region). The first column contains the date in this format YYYY-MM-DD. The **title of the first columns has to be 'timing' and the rest of the titles have to be the codes of the areas of interest (e.g. NUTS3), which have to be identical to the codes as they appear in the NUTS3 spatial data from the <a href = "https://ec.europa.eu/eurostat/en/web/nuts/background">European Commission</a>**.
-:::
-
-
-In the historic workflow, we used GSWP3 and W5E5 global meteorological forcing data processed for ISIMIP3a, sets on a 0.5°x0.5°C global grid and at daily time steps for the historical period of 1979-2019 (https://doi.org/10.48364/ISIMIP.982724.2). For the future projections, we used the ISIMIP3b bias-adjusted atmospheric climate input data, available for 5 CMIP6 global climate models (GFDL-ESM4, IPSL-CM6A-LR, MPI-ESM1-2-HR, MRI-ESM2-0, UKESM1-0-LL), and three SSP-RCPs combinations (SSP126, SSP370, SSP585) (https://doi.org/10.48364/ISIMIP.842396.1). <br/>
-
-Processing these data is performed by applying Geographic Information System (GIS) techniques, to extract an aggregated value (e.g., total precipitation) of the data points located within each area of interest (e.g., NUTS2 region). Zonal statistics is widely used for that purpose, and it was the method used in our data processing.
-
 ![hazard.png](images/hazard.png)
 
 For estimating drought hazard, this workflows requires monthly total precipitation for each NUTS3 region during the historical reference period or future projection period in a selected country.
 
+In the historic workflow, we used GSWP3-W5E5 global meteorological forcing data processed for ISIMIP3a, sets on a 0.5°x0.5°C global grid and at daily time steps for the historical period of 1979-2019 (https://doi.org/10.48364/ISIMIP.982724.2). For the future projections, we used the ISIMIP3b bias-adjusted atmospheric climate input data, available for 5 CMIP6 global climate models (GFDL-ESM4, IPSL-CM6A-LR, MPI-ESM1-2-HR, MRI-ESM2-0, UKESM1-0-LL), and three SSP-RCPs combinations (SSP126, SSP370, SSP585) (https://doi.org/10.48364/ISIMIP.842396.1). In this case, we used an ensemble average of the five different global climate model for each of the three SSP-RCPs combinations. <br/>
+
+Processing these data is performed by applying Geographic Information System (GIS) techniques, to extract an aggregated value (e.g., total precipitation) of the data points located within each area of interest (e.g., NUTS2 region). Zonal statistics is widely used for that purpose, and it was the method used in our data processing.
+
+
+:::{important}
+The expected data format is a table where each row represents the total precipitation in mm for a month/year combination, and each column represents an area of interest (e.g. NUTS3 region). The first column contains the date in this format YYYY-MM-DD. The **title of the first columns has to be 'timing' and the rest of the titles have to be the codes of the areas of interest (e.g. NUTS3), which have to be identical to the codes as they appear in the NUTS3 spatial data from the <a href = "https://ec.europa.eu/eurostat/en/web/nuts/background">European Commission</a>**.
+:::
+
+Tables with precipitation data were created for each dataset (historic and future projections) and saved as separate .csv files. Furthermore, for each of the selected SSP-RCPs combinations (SSP126, SSP370, SSP585) we created separate input files for the years 2015-2050 (near-future) and 2050-2080 (far-future). Users can either use our pre-processed data or choose to use their own precipitation data for calculating the drought hazard.
 
 ### Exposure data and methods
 
@@ -66,6 +67,7 @@ Quantyfing drought exposure utilizes a non-compensatory model to account for the
 :::{important}
 The algorithm expects a table in which each row represent an area of interest, and each column a variable. The **first column contains the codes of the area of interest (e.g., NUTS3), which have to be identical to the codes as they appear in the NUTS3 spatial data from the <a href = "https://ec.europa.eu/eurostat/en/web/nuts/background">European Commission</a>**.
 :::
+
 
 In this workflow we used the following data (provided in the exposure sample file):
 
@@ -83,6 +85,8 @@ In this workflow we used the following data (provided in the exposure sample fil
 | Human direct need | Historic | Population counts represent the basic drinking water requirements across regions. Considering a similar economic and social context, these counts can also indicate the toal doemtic water demand. Global gridded population products are available at high resolution and multiple years, yet for the scope of the EU, a data from EUROSTAT is readily available.| EUROSTAT data is available as tabular format for the NUTS3 regions.| https://ec.europa.eu/eurostat/ |
 | Human direct need | Future | Population counts represent the basic drinking water requirements across regions. Considering a similar economic and social context, these counts can also indicate the total domestic water demand. Global gridded population products are available at high resolution and multiple years, and for this analysis - the rural and urban populations grid from Global CWatM were used.| Global CWatM provides rural and urban population grids at a spatial resolution of 5 arc-minutes. | - |
 
+Data tables were created for each dataset (historic and future projections) and saved as separate .csv files. For each of the selected SSP-RCPs combinations (SSP126, SSP370, SSP585) we created separate input files for the years 2015-2050 (near-future) and 2050-2080 (far-future).
+
 Depending on the region of interest, other indicators may also be relevant for estimating drought exposure. We recommend that users research the most relevant factors in the region that may be exposed to drought before starting the analysis.
 
 
@@ -98,6 +102,8 @@ The vulnerability indicators are common proxies for economic, social, and infras
 The algorithm expects a table in which each row represent an area of interest, and each column a variable. **If different factors of vulnerability are accounted for (e.g., social, economic, etc.); each variable has to be named with a prefix according to the factor, i.e. Social_ Economic_ or Infrast_, followed by a number or the name of the variable. The first column contains the codes of the area of interest (e.g., NUTS3), which have to be identical to the codes as they appear in the NUTS2 spatial data from the <a href = "https://ec.europa.eu/eurostat/en/web/nuts/background">European Commission</a>**.
 :::
 
+Also for vulnerability, we created separate .csv tables for each dataset (historic and future projections) and for the years 2015-2050 (near-future) and 2050-2080 (far-future) under each SSP-RCPs combination.
+
 In this workflow we used the following data (provided in the vulnerability sample file):
 
 
@@ -109,6 +115,7 @@ In this workflow we used the following data (provided in the vulnerability sampl
 | Overall | GDP per capita (current US dollar) | Future | Future Gross domestic product (GDP) is a monetary measure of the market value of all the final goods and services produced in a specific time period by a country or countries. | Data is available as global grids at a 30 arc-secondes resolution. | - | [Wang and Fubao, 2022](https://zenodo.org/records/5880037) |
 | Overall | Rural population | Historic | Percentage of total population in a country or region that lives in rural areas. | Data is available as global grids at a 30 arc-secondes resolution from Global CWatM. The share of rural population was calculated by dividing the rural by the total population counts.| + | - |
 | Overall | Rural population | Future | Percentage of total population in a country or region that lives in rural areas. | Data is available as global grids at a 30 arc-secondes resolution from Global CWatM. The share of rural population was calculated by dividing the rural by the total population counts. | + | - |
+
 
 :::{admonition} Is including multiple vulnerability factors possible?
 :class: hint
@@ -129,3 +136,26 @@ where $factor_{i,j}$ represents the vulnerability scores for the selected factor
 - **Social indicators** may include the share of rural population (+), share of people with access to safely managed drinking water (-), life expectancy at birth (+), share of population at working age (-), management of water related disasters (-), and government effectivness (+).
 - **Infrastructure indicators** may include percentage of irrigated land (-), and road density (-).
 :::
+
+#### Outputs
+
+This workflow allows to generate maps and linecharts that will help users to address the following questions:
+
+- How will the absolute drought hazard for the NUTS3 regions of the selected country change in the future?
+
+![IT_ABS.png](images/IT_ABS.png)
+Example of absolute drought hazard comparison (in terms of WASP values) between NUTS3 level for historic and future scenarios in a focal (NUTS2) area.
+
+- What is the relative drought risk in each NUTS3 region of the selected country within a given historical period?
+- How will the relative drought risk between NUTS3 regions change in the future?
+
+![IT_RELAMAP.png](images/IT_RELAMAP.png)
+Example of a map showing the relative drought risk in each NUTS3 region of a selected country. Please note that the risk category for each region is always relative to the other regions considered in the workflow (here: country level) and therefore not directly comparable between datasets. This means that the risk category of one region may be higher or lower compared to the other regions, but not between e.g. historical vs. future datasets. Please refer to the risk assessment workflow for more details on how drought risk is calculated.
+
+Instructions on how to generate these outputs are available in the risk visualization workflow.
+
+#### Limitations
+
+For calculating the drought hazard under future scenarios, we used an average of 5 different CMIP6 global climate models (GFDL-ESM4, IPSL-CM6A-LR, MPI-ESM1-2-HR, MRI-ESM2-0, UKESM1-0-LL) for each of the three SSP-RCPs combinations (SSP126, SSP370, SSP585). Although this is a common approach, it is recommended that users run the workflow using data from different models to test for model uncertainty.
+
+Results on risk category for each region are always relative to the other regions considered in the workflow (here: country level) and therefore not directly comparable between datasets. This means that the risk category of one region may be higher or lower compared to the other regions, but not between e.g. historical vs. future datasets, and cannot be therefore compared between different time periods. However, results on drough hazard for each region are absolute and comparable among datasets, and can thus help users to understand if changes on relative drough risk of NUTS3 regions are due to a decrease increase of hazard or due to changes in exposure and vulnerability. We encourage users to carefully select exposure and vulnerability indicators that are more meaningfull for their regions in order to facilitate the interpretation of the results.
