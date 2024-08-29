@@ -41,22 +41,22 @@ The drought hazard and risk workflow are applied at national scale and a NUTS3 r
 
 ### Hazard data and methods
 
-Drought hazard for a given region is estimated as the probability of exceedance the median of regional (e.g., EU level) severe precipitation deficits for an historical reference period (e.g. 1979-2019) or for a future projection period (e.g. 2015-2100).<br/>
+Drought hazard for a given region is estimated as the probability of exceedance the median of regional (e.g., EU level) severe precipitation deficits for an historical reference period (e.g. 1981-2015) or for a future projection period (e.g. 2031-2060; 2071-2100).<br/>
 
 ![hazard.png](images/hazard.png)
 
 For estimating drought hazard, this workflows requires monthly total precipitation for each NUTS3 region during the historical reference period or future projection period in a selected country.
 
-In the historic workflow, we used GSWP3-W5E5 global meteorological forcing data processed for ISIMIP3a, sets on a 0.5°x0.5°C global grid and at daily time steps for the historical period of 1979-2019 (https://doi.org/10.48364/ISIMIP.982724.2). For the future projections, we used the ISIMIP3b bias-adjusted atmospheric climate input data, available for 5 CMIP6 global climate models (GFDL-ESM4, IPSL-CM6A-LR, MPI-ESM1-2-HR, MRI-ESM2-0, UKESM1-0-LL), and three SSP-RCPs combinations (SSP126, SSP370, SSP585) (https://doi.org/10.48364/ISIMIP.842396.1). In this case, we used an ensemble average of the five different global climate model for each of the three SSP-RCPs combinations. <br/>
+Pre-processed data is available for the historic workflow as well as future projections. The ensamble average from ISIMIP 3b bias-adjusted atmospheric climate input data (https://doi.org/10.48364/ISIMIP.842396.1) is used for both historical period (1981 -2015) and future projections (near-future (2050) 2031 -2060 and far-future (2080) 2071 -2100). Precipitation data is the average of five CMIP6 global climate models (GCMs; GFDL-ESM4, IPSL-CM6A-LR, MPI-ESM1-2-HR, MRI-ESM2-0, UKESM1-0-LL), for three SSP-RCPs combinations (SSP126, SSP370, SSP585) provided at a spatial resolution of 0.5°x0.5°.
 
-Processing these data is performed by applying Geographic Information System (GIS) techniques, to extract an aggregated value (e.g., total precipitation) of the data points located within each area of interest (e.g., NUTS2 region). Zonal statistics is widely used for that purpose, and it was the method used in our data processing.
+Processing these data is performed by applying Geographic Information System (GIS) techniques, to extract an aggregated value (e.g., total precipitation) of the data points located within each area of interest (e.g., NUTS3 region). Zonal statistics is widely used for that purpose, and it was the method used in our data processing.
 
 
 :::{important}
 The expected data format is a table where each row represents the total precipitation in mm for a month/year combination, and each column represents an area of interest (e.g. NUTS3 region). The first column contains the date in this format YYYY-MM-DD. The **title of the first columns has to be 'timing' and the rest of the titles have to be the codes of the areas of interest (e.g. NUTS3), which have to be identical to the codes as they appear in the NUTS3 spatial data from the <a href = "https://ec.europa.eu/eurostat/en/web/nuts/background">European Commission</a>**.
 :::
 
-Tables with precipitation data were created for each dataset (historic and future projections) and saved as separate .csv files. Furthermore, for each of the selected SSP-RCPs combinations (SSP126, SSP370, SSP585) we created separate input files for the years 2015-2050 (near-future) and 2050-2080 (far-future). Users can either use our pre-processed data or choose to use their own precipitation data for calculating the drought hazard.
+Tables with precipitation data were created for each dataset (historic and future projections) and saved as separate .csv files. Furthermore, for each of the selected SSP-RCPs combinations (SSP126, SSP370, SSP585) we created separate input files for the years 2031 -2060 (near-future) and 2071-2100 (far-future). Users are advised to use the provided data to preserve the consistency between the historical and projected data. Alternatively, users that prefer to use their precipitation data should make sure the historical and projected data are consistent (e.g., outputs of a single model).
 
 ### Exposure data and methods
 
