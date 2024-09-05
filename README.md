@@ -1,6 +1,6 @@
 # DROUGHTS
 
-Repository for collaboration on workflows for the extreme precipitation hazard.
+Repository for collaboration on workflows for the droughts hazard.
 
 [<img src="https://raw.githubusercontent.com/CLIMAAX/crabook/main/crabook/logo.png" height="100" />](https://climaax.eu)
 
