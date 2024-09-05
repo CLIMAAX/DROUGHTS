@@ -1,41 +1,57 @@
-Click [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/CLIMAAX/DROUGHTS/main) to open the notebooks in this repository on MyBinder.  
-
-
 # DROUGHTS
-Repository for collaboration on workflows for droughts hazard
 
-# How to run
+Repository for collaboration on workflows for the extreme precipitation hazard.
 
-## Running on Binder
-The notebook is designed to be launched from Binder. 
+[<img src="https://raw.githubusercontent.com/CLIMAAX/crabook/main/crabook/logo.png" height="100" />](https://climaax.eu)
 
-Click the **Launch Binder** button at the top level of the repository
+Part of the [Climate Risk Assessment Handbook](https://handbook.climaax.eu/notebooks/workflows/droughts.html).
 
-## Running locally
-You may also download the notebook from GitHub to run it locally:
-1. Open your terminal
 
-2. Check your conda install with `conda --version`. If you don't have conda, install it by following these instructions (see [here](https://docs.conda.io/en/latest/miniconda.html))
+## Workflows
 
-3. Clone the repository
-    ```bash
-    git clone git@github.com:CLIMAAX/DROUGHTS.git
-    ```
+- [Relative drought](01_relative_drought/)
+- [Agricultural drought](02_agriculture_drought/)
 
-4. Move into the cloned repository
-    ```bash
-    cd DROUGHTS
-    ```
 
-5. Create and activate your environment from the `environment.yml` file
-    ```bash
-    conda env create -f environment.yml
-    conda activate climaax_droughts
-    ```  
+## How to run
 
-6. Launch the jupyter interface of your preference, notebook, `jupyter notebook` or lab `jupyter lab`
-7. Edit the notebook
-8. Commit and push to the repo. **This step will be changed soon, introducing Pull Requests**.
+See our [how to use risk workflows](https://handbook.climaax.eu/notebooks/workflows_how_to.html) page in the Handbook for more information.
 
-# Credits
-The **How to run** section was adapted from the [Environmental Data Science Book](https://edsbook.org/welcome.html) project.
+### Launch a binder session
+
+Binder sessions are not persistent and may not provide the necessary computing resources to run all workflow steps.
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/climaax/binder-env/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252FCLIMAAX%252FDROUGHTS%26urlpath%3Dlab%252Ftree%252FDROUGHTS%252F%26branch%3Dmain)
+
+### Quickstart: local setup
+
+In a terminal where git and conda are available:
+
+1.  Clone the repository
+
+        git clone git@github.com:CLIMAAX/DROUGHTS.git
+
+2.  Move into the cloned repository
+
+        cd DROUGHTS
+
+3.  Create a new environment from the `environment.yml` file
+
+        conda env create -f environment.yml
+
+4.  Activate the environment
+
+        conda activate climaax_droughts
+
+5.  Launch the Jupyter interface of your preference with
+
+        jupyter lab
+
+    or
+
+        jupyter notebook
+
+
+## How to contribute
+
+See our [contribute to risk recipes](https://handbook.climaax.eu/community/contribute.html) page in the handbook for more information.
