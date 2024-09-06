@@ -7,6 +7,16 @@ Indeed, risk quantification is a fundamental first step in the design of an effe
 
 ![risk_graphic](agriculture_risk_graphic.png)
 
+## Structure of the workflow
+This workflow consists of two separate notebooks, one for the hazard assessment and one for the risk assessment. In addition, the user is provided with the editable CSV file containing the parameters used for crop modeling.
+
+In the next pages you will find:
+
+ - Agricultural drought hazard assessment [(link to notebook on GitHub)](https://github.com/CLIMAAX/DROUGHTS/blob/main/02_agriculture_drought/AGRICULTURE_DROUGHT_Hazard.ipynb)
+ - CSV file with the crop parameters [(link to file on GitHub)](https://github.com/CLIMAAX/DROUGHTS/blob/main/02_agriculture_drought/crop_table.csv) and related notebook describing the parameters choice [(link to notebook on GitHub)](https://github.com/CLIMAAX/DROUGHTS/blob/main/02_agriculture_drought/crop_table.ipynb)
+ - Agricultural drought risk assessment [(link to notebook on GitHub)](https://github.com/CLIMAAX/DROUGHTS/blob/main/02_agriculture_drought/AGRICULTURE_DROUGHT_Risk_Assessment.ipynb)
+
+
 ## Datasets used
 
 The assessment is based on well-established climate projections and global agricultural datasets allowing to estimate potential losses at approximately 10 km resolution. These include:
@@ -16,6 +26,24 @@ The assessment is based on well-established climate projections and global agric
 * Distribution of fully-irrigated cropland for 2010 from GAEZ to account for vulnerability. 
 
 The tool is designed to work considering different future time periods and emission scenarios, allowing the user to understand the implications of different levels of global warming. The user is invited to further personalise the workflow using local datasets for agricultural production to increase the accuracy of the assessment or to test the reliability of the default global datasets.
+
+## Outputs
+
+The output of the workflow is a map showing the potential revenue losses from irrigation deficit in the studied region for the studied crops, emission scenario and future period. Losses are expressed as the 'lost opportunity cost' in thousands euros if crops are grown under non-irrigated conditions. The maps also show the share of cropland in each grid-point with irrigation systems already implemented in 2010 as an indicator of vulnerability to rainfall scarcity. 
+<br>
+
+The map can be used by demonstrators to understand which areas of their region are expected to suffer the greatest losses, as well as which crops will be the most impacted by the absence of irrigation. This allows them to target adaptation efforts, such as the improvement of the current irrigation network, in the most affected and vulnerable areas favouring a cost-effective use of resources. At the same time, the map provides a snap-shot of a potential future growing season that can be used to guide cropland expansion towards areas and products less affected by water stress.
+
+## Limitations
+The main limitation of this approach is the fact that the crop production, aggregated value and irrigation distribution datasets refer to 2010 values and might not be accurately representative of current conditions. The user is invited to replace these datasets with more updated information whenever possible. 
+
+From a methodological point of view, the main limitation derives from the yield loss calculation procedure, as discussed in detail the [hazard](AGRICULTURE_DROUGHT_Hazard.ipynb) workflow. In essence, the accuracy of the yield loss calculation is limited by the global parameters used in the crop growth modelling part of the workflow. The user can improve the accuracy of the assessment using locally-relevant parameters whenever possible.
+
+## Contributors
+
+Euro-Mediterranean Center on Climate Change (CMCC), Italy.
+
+Author of the workflow: Andrea Rivosecchi
 
 
 
