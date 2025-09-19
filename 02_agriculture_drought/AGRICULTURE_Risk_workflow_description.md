@@ -1,20 +1,20 @@
 # Agricultural Drought Risk Assessment Description
-<br>
+
 Climate change is posing an increasing threat to food production systems, furtherly complicating the challenge of satisfying the food demand of a rising global population while respecting the limits imposed by planetary resource boundaries. In Europe, the effects of climate change differ between historically semi-arid (e.g., Mediterranean) and wet (e.g., Central and North Europe) regions. In the former, while rainfall events will become less frequent and more extreme, droughts will get more severe and extend beyond the historical dry seasons, compromising the long-term stability of freshwater resources. At the same time, higher latitudes will experience a significant reduction in mean precipitation rates that, coupled with increasing mean temperatures, will negatively affect soil water availability. These climatic shifts have profound consequences for the agricultural sector. On one hand, semi-arid regions will be increasingly prone to water shortages and forced to reduce allocations to irrigation to satisfy other public needs. On the other, historically wet regions might be forced to invest in the large-scale expansion of their irrigation systems, as the decreasing water availability will hinder the potential of rainfed systems to satisfy growing production demands. In this context, a transition towards more water-stress-resilient agricultural practices is urgently needed to limit losses across the european food production system.
-<br>
-<br>
+
 Indeed, risk quantification is a fundamental first step in the design of an effective adaptation strategy. Thus, the aim of this workflow is to provide a simple tool to quantify potential agricultural revenue losses caused by precipitation deficit. The hazard component of the asssessment is represented by the potential yield losses deriving from water scarcity, defined as the deficit in crop evapotranspiration potential, in the absence of irrigation. The total crop production and the aggregated crops revenue are used to quantify the exposure of the agricultural sector in economic terms. Finally, the current distribution of irrigation systems is used to map vulnerability. Thus, using this tool communities will get a spatial quantification of potential revenue losses from reduced crop production, and will also be able to identify the most vulnerable areas to precipitation deficits. In stricter terms, the revenue loss quantified here represents the 'lost opportunity' cost of non implementing irrigation.
 
 ![risk_graphic](agriculture_risk_graphic.png)
 
 ## Structure of the workflow
+
 This workflow consists of two separate notebooks, one for the hazard assessment and one for the risk assessment. In addition, the user is provided with the editable CSV file containing the parameters used for crop modeling.
 
 In the next pages you will find:
 
- - Agricultural drought hazard assessment [(link to notebook on GitHub)](https://github.com/CLIMAAX/DROUGHTS/blob/main/02_agriculture_drought/AGRICULTURE_DROUGHT_Hazard.ipynb)
- - CSV file with the crop parameters [(link to file on GitHub)](https://github.com/CLIMAAX/DROUGHTS/blob/main/02_agriculture_drought/crop_table.csv) and related notebook describing the parameters choice [(link to notebook on GitHub)](https://github.com/CLIMAAX/DROUGHTS/blob/main/02_agriculture_drought/crop_table.ipynb)
- - Agricultural drought risk assessment [(link to notebook on GitHub)](https://github.com/CLIMAAX/DROUGHTS/blob/main/02_agriculture_drought/AGRICULTURE_DROUGHT_Risk_Assessment.ipynb)
+- [Agricultural drought hazard assessment](./AGRICULTURE_DROUGHT_Hazard.ipynb)
+- [Agricultural drought risk assessment](./AGRICULTURE_DROUGHT_Risk_Assessment.ipynb)
+- CSV file with the crop parameters [(link to file on GitHub)](https://github.com/CLIMAAX/DROUGHTS/blob/main/02_agriculture_drought/crop_table.csv) and the related [notebook describing the parameters choice](./crop_table.ipynb)
 
 
 ## Datasets used
@@ -35,18 +35,15 @@ The output of the workflow is a map showing the potential revenue losses from ir
 The map can be used by demonstrators to understand which areas of their region are expected to suffer the greatest losses, as well as which crops will be the most impacted by the absence of irrigation. This allows them to target adaptation efforts, such as the improvement of the current irrigation network, in the most affected and vulnerable areas favouring a cost-effective use of resources. At the same time, the map provides a snap-shot of a potential future growing season that can be used to guide cropland expansion towards areas and products less affected by water stress.
 
 ## Limitations
-The main limitation of this approach is the fact that the crop production, aggregated value and irrigation distribution datasets refer to 2010 values and might not be accurately representative of current conditions. The user is invited to replace these datasets with more updated information whenever possible. 
 
-From a methodological point of view, the main limitation derives from the yield loss calculation procedure, as discussed in detail the [hazard](AGRICULTURE_DROUGHT_Hazard.ipynb) workflow. In essence, the accuracy of the yield loss calculation is limited by the global parameters used in the crop growth modelling part of the workflow. The user can improve the accuracy of the assessment using locally-relevant parameters whenever possible.
+The main limitation of this approach is that the crop production and aggregated value datasets refer to 2020 values and the irrigation distribution dataset 2015.
+These values might not accurately represent current conditions.
+The user is invited to replace these datasets with more updated information whenever possible.
+
+From a methodological point of view, the main limitation derives from the yield loss calculation procedure, as discussed in detail the [hazard](./AGRICULTURE_DROUGHT_Hazard.ipynb) workflow. In essence, the accuracy of the yield loss calculation is limited by the global parameters used in the crop growth modelling part of the workflow. The user can improve the accuracy of the assessment using locally-relevant parameters whenever possible.
 
 ## Contributors
 
 Euro-Mediterranean Center on Climate Change (CMCC), Italy.
 
 Author of the workflow: Andrea Rivosecchi
-
-
-
-
-
-
