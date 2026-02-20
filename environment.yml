@@ -30,4 +30,5 @@ dependencies:
     - shapely=2.0.6
     - xarray=2024.6.0
     - pip:
+        - gisco-geodata==0.1.2
         - pyDataverse==0.3.4
