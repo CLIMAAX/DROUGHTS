@@ -4,7 +4,7 @@ Repository for collaboration on workflows for the droughts hazard.
 
 [<img src="https://raw.githubusercontent.com/CLIMAAX/crabook/main/crabook/logo.png" height="100" />](https://climaax.eu)
 
-Part of the [Climate Risk Assessment Handbook](https://handbook.climaax.eu/notebooks/workflows/droughts.html).
+Part of the [Climate Risk Assessment Handbook](https://handbook.climaax.eu/).
 
 
 ## Workflows
@@ -27,7 +27,7 @@ Binder sessions are not persistent and may not provide the necessary computing r
 
 ```bash
 # Clone the workflow repository
-git clone git@github.com:CLIMAAX/DROUGHTS.git
+git clone https://github.com/CLIMAAX/DROUGHTS.git
 cd DROUGHTS
 
 # Create a new environment and activate it
