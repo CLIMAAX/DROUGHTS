@@ -12,9 +12,10 @@ dependencies:
     - flox=0.11.1
     - geopandas=1.0.1
     - ipykernel=6.29.5
+    - ipywidgets=8.1.3
     - jenkspy=0.4.1
     - jupyterlab-myst=2.4.2
-    - jupyterlab=4.2.6
+    - jupyterlab=4.2.7
     - matplotlib=3.8.4
     - netcdf4=1.7.1
     - notebook=7.2.2
@@ -25,11 +26,13 @@ dependencies:
     - pooch=1.9.0
     - pydataverse=0.3.5
     - pyproj=3.6.1
+    - python-kaleido=0.2.1
     - python=3.12
     - rasterio=1.3.10
     - rioxarray=0.15.7
     - scipy=1.15.2
     - shapely=2.0.6
+    - tqdm=4.67.1
     - xarray=2024.6.0
     - pip:
         - gisco-geodata==0.1.3
