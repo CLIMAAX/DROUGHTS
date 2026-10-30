@@ -46,4 +46,4 @@ From a methodological point of view, the main limitation derives from the yield 
 
 Euro-Mediterranean Center on Climate Change (CMCC), Italy.
 
-Author of the workflow: Andrea Rivosecchi
+Authors of the workflow: Andrea Rivosecchi, Antonio Trabucco
